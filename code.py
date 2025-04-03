@@ -8,7 +8,7 @@ import pytesseract
 import threading
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyBhdtGq6BOkTBr8PA5BCe7sCSC8sIKnDNg")
+genai.configure(api_key="Your_api_key")
 
 # Initialize text-to-speech engine
 engine = pyttsx3.init()
